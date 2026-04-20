@@ -13,7 +13,6 @@ struct ContentView: View {
             Image(systemName: "flag")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Version Control Test")
         }
         .padding()
     }
