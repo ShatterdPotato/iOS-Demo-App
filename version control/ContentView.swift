@@ -9,15 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
-            Image(systemName: "flag")
-                .imageScale(.large)
-                .foregroundStyle(Constants.favoriteColor)
-            Image(systemName: "flag")
-                .imageScale(.large)
-                .foregroundStyle(Constants.favoriteColor)
+        VStack {
+            HStack {
+                Image(systemName: "flag")
+                    .imageScale(.large)
+                    .foregroundStyle(Constants.favoriteColor)
+                Image(systemName: "flag")
+                    .imageScale(.large)
+                    .foregroundStyle(Constants.favoriteColor)
+                
+            }
+            .padding()
+            Text("My favorite number is \(Constants.pecialNumber)")
         }
-        .padding()
     }
 }
 
