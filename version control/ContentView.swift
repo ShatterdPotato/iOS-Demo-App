@@ -9,7 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        HStack {
+            Image(systemName: "flag")
+                .imageScale(.large)
+                .foregroundStyle(Constants.favoriteColor)
             Image(systemName: "flag")
                 .imageScale(.large)
                 .foregroundStyle(Constants.favoriteColor)
